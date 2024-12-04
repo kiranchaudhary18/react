@@ -86,8 +86,8 @@ function Homepage(){
                  // alert("buuton clicked");
                  window.open('http://127.0.0.1:3002/form.html')
                });
-             </script> */}
- 
+             </script>
+  */}
              <div className="flex">
              <div className="nav2">
                  <img style={{width: '1.5vw',paddingTop: '1vh',paddingLeft: '.5vw'}} src={Img1}></img>
