@@ -1,5 +1,6 @@
 
 import './style.css'
+import { initializeApp } from "firebase/app";
 import  Img from './Img/In@3x.png'
 import Img1 from './Img/bed.image.png'
 import Img2 from './Img/car.image.png'
@@ -385,7 +386,28 @@ function Homepage(){
 
         {/* <img style={{width: '25vw',borderradius: '.5vw',height:'35vh'}}src={{Img49}}></img> */}
     </div>
-   
+
+
+     <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {{
+    apiKey: "AIzaSyDc2jwtypyhMBg4Kcp-L6dlEHIDYqZd4RQ",
+    authDomain: "react-763f2.firebaseapp.com",
+    projectId: "react-763f2",
+    storageBucket: "react-763f2.firebasestorage.app",
+    messagingSenderId: "369029912637",
+    appId: "1:369029912637:web:de7514a8e2fee0e2963254"
+  }};
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+    
    
            
         </>
